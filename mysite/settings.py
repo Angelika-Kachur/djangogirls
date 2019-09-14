@@ -28,6 +28,7 @@ DEBUG = True
 ALLOWED_HOSTS = ['127.0.0.1', '.pythonanywhere.com']
 
 # Application definition
+#list of different applications that we are using
 
 INSTALLED_APPS = [
     'django.contrib.admin',
@@ -36,6 +37,7 @@ INSTALLED_APPS = [
     'django.contrib.sessions',
     'django.contrib.messages',
     'django.contrib.staticfiles',
+    'blog.apps.BlogConfig'
 ]
 
 MIDDLEWARE = [
